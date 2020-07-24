@@ -23,6 +23,7 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
+
     .list {
         flex-wrap: wrap;
         flex-direction: column;
@@ -520,7 +521,8 @@
     }
 
     .article__form_position {
-        width: 100%;
+        width: 50%;
+        padding-bottom: 20px;
     }
 
     .tagline {
@@ -533,6 +535,19 @@
 
     .article__description {
         width: 100%;
+    }
+
+    .nav__items_position {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    .panel {
+        margin-bottom: 0px;
+    }
+
+    #Bold {
+        padding: 10px 5px;
     }
 }
 
@@ -549,7 +564,14 @@
         align-items: center;
     }
 
+    .price__criteries {
+        padding-top: 20px;
+    }
     .prise {
+        width: 70%;
+    }
+
+    .end {
         width: 70%;
     }
 }
@@ -586,7 +608,19 @@
     .aside__social-media {
         margin: 0 auto;
         text-align: center;
+        width: 90%;
     }
+
+    .article__form_position {
+        width: 80%;
+    }
+
+    .nav__items_position {
+        width: 90%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
 }
 
 
